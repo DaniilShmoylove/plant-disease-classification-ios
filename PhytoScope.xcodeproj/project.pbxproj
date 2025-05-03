@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FB0F1E972DC6230600C869E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0F1E7C2DC6230500C869E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0F1E832DC6230500C869E5;
+			remoteInfo = PhytoScope;
+		};
+		FB0F1EA12DC6230600C869E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0F1E7C2DC6230500C869E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0F1E832DC6230500C869E5;
+			remoteInfo = PhytoScope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0F1E842DC6230500C869E5 /* PhytoScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhytoScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0F1E962DC6230600C869E5 /* PhytoScopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhytoScopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0F1EA02DC6230600C869E5 /* PhytoScopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhytoScopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FB0F1E862DC6230500C869E5 /* PhytoScope */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhytoScope;
+			sourceTree = "<group>";
+		};
+		FB0F1E992DC6230600C869E5 /* PhytoScopeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhytoScopeTests;
+			sourceTree = "<group>";
+		};
+		FB0F1EA32DC6230600C869E5 /* PhytoScopeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhytoScopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0F1E812DC6230500C869E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E932DC6230600C869E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E9D2DC6230600C869E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0F1E7B2DC6230500C869E5 = {
+			isa = PBXGroup;
+			children = (
+				FB0F1E862DC6230500C869E5 /* PhytoScope */,
+				FB0F1E992DC6230600C869E5 /* PhytoScopeTests */,
+				FB0F1EA32DC6230600C869E5 /* PhytoScopeUITests */,
+				FB0F1E852DC6230500C869E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0F1E852DC6230500C869E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0F1E842DC6230500C869E5 /* PhytoScope.app */,
+				FB0F1E962DC6230600C869E5 /* PhytoScopeTests.xctest */,
+				FB0F1EA02DC6230600C869E5 /* PhytoScopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0F1E832DC6230500C869E5 /* PhytoScope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0F1EAA2DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScope" */;
+			buildPhases = (
+				FB0F1E802DC6230500C869E5 /* Sources */,
+				FB0F1E812DC6230500C869E5 /* Frameworks */,
+				FB0F1E822DC6230500C869E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FB0F1E862DC6230500C869E5 /* PhytoScope */,
+			);
+			name = PhytoScope;
+			packageProductDependencies = (
+			);
+			productName = PhytoScope;
+			productReference = FB0F1E842DC6230500C869E5 /* PhytoScope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0F1E952DC6230600C869E5 /* PhytoScopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0F1EAD2DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScopeTests" */;
+			buildPhases = (
+				FB0F1E922DC6230600C869E5 /* Sources */,
+				FB0F1E932DC6230600C869E5 /* Frameworks */,
+				FB0F1E942DC6230600C869E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0F1E982DC6230600C869E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB0F1E992DC6230600C869E5 /* PhytoScopeTests */,
+			);
+			name = PhytoScopeTests;
+			packageProductDependencies = (
+			);
+			productName = PhytoScopeTests;
+			productReference = FB0F1E962DC6230600C869E5 /* PhytoScopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0F1E9F2DC6230600C869E5 /* PhytoScopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0F1EB02DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScopeUITests" */;
+			buildPhases = (
+				FB0F1E9C2DC6230600C869E5 /* Sources */,
+				FB0F1E9D2DC6230600C869E5 /* Frameworks */,
+				FB0F1E9E2DC6230600C869E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0F1EA22DC6230600C869E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB0F1EA32DC6230600C869E5 /* PhytoScopeUITests */,
+			);
+			name = PhytoScopeUITests;
+			packageProductDependencies = (
+			);
+			productName = PhytoScopeUITests;
+			productReference = FB0F1EA02DC6230600C869E5 /* PhytoScopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0F1E7C2DC6230500C869E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FB0F1E832DC6230500C869E5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FB0F1E952DC6230600C869E5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB0F1E832DC6230500C869E5;
+					};
+					FB0F1E9F2DC6230600C869E5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB0F1E832DC6230500C869E5;
+					};
+				};
+			};
+			buildConfigurationList = FB0F1E7F2DC6230500C869E5 /* Build configuration list for PBXProject "PhytoScope" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0F1E7B2DC6230500C869E5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB0F1E852DC6230500C869E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0F1E832DC6230500C869E5 /* PhytoScope */,
+				FB0F1E952DC6230600C869E5 /* PhytoScopeTests */,
+				FB0F1E9F2DC6230600C869E5 /* PhytoScopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0F1E822DC6230500C869E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E942DC6230600C869E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E9E2DC6230600C869E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0F1E802DC6230500C869E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E922DC6230600C869E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F1E9C2DC6230600C869E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0F1E982DC6230600C869E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0F1E832DC6230500C869E5 /* PhytoScope */;
+			targetProxy = FB0F1E972DC6230600C869E5 /* PBXContainerItemProxy */;
+		};
+		FB0F1EA22DC6230600C869E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0F1E832DC6230500C869E5 /* PhytoScope */;
+			targetProxy = FB0F1EA12DC6230600C869E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB0F1EA82DC6230600C869E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0F1EA92DC6230600C869E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0F1EAB2DC6230600C869E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhytoScope/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0F1EAC2DC6230600C869E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhytoScope/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB0F1EAE2DC6230600C869E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhytoScope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhytoScope";
+			};
+			name = Debug;
+		};
+		FB0F1EAF2DC6230600C869E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhytoScope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhytoScope";
+			};
+			name = Release;
+		};
+		FB0F1EB12DC6230600C869E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhytoScope;
+			};
+			name = Debug;
+		};
+		FB0F1EB22DC6230600C869E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BU4S7J3BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilshmoylov.PhytoScopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhytoScope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0F1E7F2DC6230500C869E5 /* Build configuration list for PBXProject "PhytoScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0F1EA82DC6230600C869E5 /* Debug */,
+				FB0F1EA92DC6230600C869E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0F1EAA2DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0F1EAB2DC6230600C869E5 /* Debug */,
+				FB0F1EAC2DC6230600C869E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0F1EAD2DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0F1EAE2DC6230600C869E5 /* Debug */,
+				FB0F1EAF2DC6230600C869E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0F1EB02DC6230600C869E5 /* Build configuration list for PBXNativeTarget "PhytoScopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0F1EB12DC6230600C869E5 /* Debug */,
+				FB0F1EB22DC6230600C869E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0F1E7C2DC6230500C869E5 /* Project object */;
+}
