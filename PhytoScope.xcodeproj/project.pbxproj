@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB40D0AD2DCFD155009E6B83 /* PhytoScopeMLKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB40D0AC2DCFD155009E6B83 /* PhytoScopeMLKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FB0F1E972DC6230600C869E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FB0F1E842DC6230500C869E5 /* PhytoScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhytoScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0F1E962DC6230600C869E5 /* PhytoScopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhytoScopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0F1EA02DC6230600C869E5 /* PhytoScopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhytoScopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB40D0AA2DCFD111009E6B83 /* PhytoScopeMLKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PhytoScopeMLKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB40D0AD2DCFD155009E6B83 /* PhytoScopeMLKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +81,11 @@
 		FB0F1E7B2DC6230500C869E5 = {
 			isa = PBXGroup;
 			children = (
+				FB40D0AA2DCFD111009E6B83 /* PhytoScopeMLKit */,
 				FB0F1E862DC6230500C869E5 /* PhytoScope */,
 				FB0F1E992DC6230600C869E5 /* PhytoScopeTests */,
 				FB0F1EA32DC6230600C869E5 /* PhytoScopeUITests */,
+				FB40D0AB2DCFD155009E6B83 /* Frameworks */,
 				FB0F1E852DC6230500C869E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +98,13 @@
 				FB0F1EA02DC6230600C869E5 /* PhytoScopeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FB40D0AB2DCFD155009E6B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +127,7 @@
 			);
 			name = PhytoScope;
 			packageProductDependencies = (
+				FB40D0AC2DCFD155009E6B83 /* PhytoScopeMLKit */,
 			);
 			productName = PhytoScope;
 			productReference = FB0F1E842DC6230500C869E5 /* PhytoScope.app */;
@@ -558,6 +574,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB40D0AC2DCFD155009E6B83 /* PhytoScopeMLKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PhytoScopeMLKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB0F1E7C2DC6230500C869E5 /* Project object */;
 }
