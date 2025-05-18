@@ -25,7 +25,7 @@ struct PhytoScopeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootScreen()
         }
         .modelContainer(sharedModelContainer)
     }
